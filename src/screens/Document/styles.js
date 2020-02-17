@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native';
 
 export const Container = styled.View`
   flex-direction: row;
@@ -22,19 +22,20 @@ export const DocumentView = styled.View`
   flex: 1;
   margin-left: 20px;
   justify-content: center;
+  align-items: center;
 `;
 
 export const CardFront = styled.ImageBackground`
   justify-content: flex-end;
   padding: 20px;
-  height: 250px;
-  width: 400px;
+  height: 270px;
+  width: 432px;
 `;
 
 export const CardBack = styled.ImageBackground`
   padding: 20px;
-  height: 250px;
-  width: 400px;
+  height: 270px;
+  width: 432px;
   flex-direction: row;
 `;
 

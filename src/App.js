@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import {View} from 'react-native';
 import {useSelector} from 'react-redux';
 import {decode, encode} from 'base-64';
 

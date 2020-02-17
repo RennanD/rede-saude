@@ -85,7 +85,7 @@ export default function Home({navigation}) {
 
           <Option
             onPress={() => {
-              Linking.openURL('tel:0800');
+              Linking.openURL('tel:08007766013');
             }}>
             <IconView>
               <Icon source={contatos} />
@@ -93,9 +93,6 @@ export default function Home({navigation}) {
             <Label>Contatos</Label>
           </Option>
         </Row>
-
-            <Profile>08007766013</Profile>
-
       </Menu>
       <Logout onPress={() => dispatch(singOut())}>
         <Icon source={sair} />

@@ -10,7 +10,7 @@ export const Header = styled.View`
 export const HeadImage = styled.ImageBackground`
   justify-content: flex-end;
   flex-direction: row;
-  flex: 1;
+  height: 450px;
 `;
 
 export const TextView = styled.View`
@@ -87,6 +87,7 @@ export const Label = styled.Text`
   color: #fff;
   margin-top: 7px;
   font-size: 11px;
+  text-align: center;
 `;
 
 export const Logout = styled.TouchableOpacity`

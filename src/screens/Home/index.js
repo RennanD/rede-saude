@@ -19,6 +19,7 @@ import {
   HeadText,
   HeadLabel,
   TextView,
+  Profile,
 } from './styles';
 
 import ProfileHeader from '../../components/ProfileHeader';
@@ -57,23 +58,14 @@ export default function Home({navigation}) {
 
   return (
     <Container>
-      <SliderShow>
-        <FlatList
-          data={slide}
-          horizontal
-          keyExtractor={item => item.id}
-          renderItem={({item}) => (
-            <HeadImage source={item.image}>
-              <TextView>
-                <HeadText>Encontre médicos, clínicas e farmácias.</HeadText>
-                <HeadLabel>
-                  Faça uma busca mais próxima de onde você estiver
-                </HeadLabel>
-              </TextView>
-            </HeadImage>
-          )}
-        />
-      </SliderShow>
+      <HeadImage source={head2}>
+        <TextView>
+          <HeadText>Encontre médicos, clínicas e farmácias.</HeadText>
+          <HeadLabel>
+            Faça uma busca mais próxima de onde você estiver
+          </HeadLabel>
+        </TextView>
+      </HeadImage>
 
       <Menu>
         <Row>
@@ -101,6 +93,9 @@ export default function Home({navigation}) {
             <Label>Contatos</Label>
           </Option>
         </Row>
+
+            <Profile>08007766013</Profile>
+
       </Menu>
       <Logout onPress={() => dispatch(singOut())}>
         <Icon source={sair} />

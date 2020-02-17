@@ -36,6 +36,8 @@ export const Profile = styled.Text`
   font-weight: bold;
   color: #fff;
   margin-left: 10px;
+  align-self: stretch;
+  text-align: center;
 `;
 
 export const Container = styled.View`

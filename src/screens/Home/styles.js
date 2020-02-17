@@ -10,7 +10,7 @@ export const Header = styled.View`
 export const HeadImage = styled.ImageBackground`
   justify-content: flex-end;
   flex-direction: row;
-  height: 450px;
+  height: 360px;
 `;
 
 export const TextView = styled.View`
